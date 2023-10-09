@@ -4,6 +4,7 @@ from segmentation_models.losses import dice_loss
 
 model_file_name = "models/07_last_optim.h5"
 
+@app.route("/", methods=['POST', 'GET'])
 def affichage_result_mask(_img):
 
     # load the model and detect
