@@ -6,7 +6,8 @@ model_file_name = "models/07_last_optim.h5"
 
 @app.route("/", methods=['POST', 'GET'])
 def affichage_result_mask(_img):
-
+    
+    _img = request.files['image']
     # load the model and detect
     loaded_model = keras.models.load_model(model_file_name ,
                                     custom_objects={
