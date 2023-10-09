@@ -1,8 +1,4 @@
 keras
 gunicorn
-opencv-python
-numpy
 tensorflow
-matplotlib
-Pillow
 Werkzeug
