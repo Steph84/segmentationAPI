@@ -1,6 +1,7 @@
 import keras
 from segmentation_models.metrics import iou_score
 from segmentation_models.losses import dice_loss
+from flask import request
 
 model_file_name = "models/07_last_optim.h5"
 
