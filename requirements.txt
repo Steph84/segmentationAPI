@@ -2,3 +2,4 @@ keras
 gunicorn
 Werkzeug
 flask
+tensorflow
