@@ -1,6 +1,6 @@
 keras
 gunicorn
-opencv
+opencv-python
 numpy
 tensorflow
 matplotlib
