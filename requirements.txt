@@ -1,0 +1,9 @@
+keras
+gunicorn
+Flask
+opencv
+numpy
+tensorflow
+matplotlib
+Pillow
+Werkzeug
