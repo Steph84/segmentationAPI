@@ -2,4 +2,4 @@ keras
 gunicorn
 Werkzeug
 flask
-tensorflow
+tensorflow-lite
