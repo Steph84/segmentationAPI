@@ -1,5 +1,6 @@
-keras
-gunicorn
-Werkzeug
-flask
-tflite
+gunicorn==20.1.0
+segmentation-models==1.0.1
+opencv-python-headless==4.7.0.72
+tensorflow-cpu==2.12.0
+Werkzeug==2.3.4
+keras==2.12.0
