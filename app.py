@@ -1,9 +1,10 @@
-import keras
+#import keras
 from segmentation_models.metrics import iou_score
 from segmentation_models.losses import dice_loss
 from flask import request, Flask
 
 import os
+from tensorflow import keras
 os.environ["SM_FRAMEWORK"] = "tf.keras"
 import segmentation_models as sm
 sm.set_framework('tf.keras')
